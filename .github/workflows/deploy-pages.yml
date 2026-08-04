@@ -72,9 +72,10 @@ jobs:
         env:
           # 开启离线演示模式：所有 API 走内置 JSON mock，不依赖后端服务器
           VITE_DEMO_MODE: "true"
-          # GitHub Pages 子路径 = /${GITHUB_REPOSITORY#<owner>/}/ ，即仅仓库名
-          VITE_BASE: "/${GITHUB_REPOSITORY#*/}/"
-          VITE_GITHUB_REPO: "${GITHUB_REPOSITORY#*/}"
+          # GitHub Pages 子路径 = /<仓库名>/
+          # 注意：env 块不会展开 ${GITHUB_REPOSITORY#*/} 这种 shell 语法，必须使用 GitHub Actions 表达式
+          VITE_BASE: "/${{ github.event.repository.name }}/"
+          VITE_GITHUB_REPO: "${{ github.event.repository.name }}"
           NODE_OPTIONS: "--max-old-space-size=8192"
         run: npm run build
 
@@ -82,6 +83,12 @@ jobs:
         run: |
           echo "构建完成，产物目录大小："
           du -sh rebuild-dist 2>/dev/null || echo "du 不可用，跳过"
+          echo "校验 GitHub Pages 资源路径："
+          grep -n "${{ github.event.repository.name }}/assets" rebuild-dist/index.html
+          if grep -n "GITHUB_REPOSITORY" rebuild-dist/index.html; then
+            echo "错误：构建产物中仍包含未展开的 GITHUB_REPOSITORY 变量"
+            exit 1
+          fi
           echo "目录结构："
           ls -la rebuild-dist/
 
