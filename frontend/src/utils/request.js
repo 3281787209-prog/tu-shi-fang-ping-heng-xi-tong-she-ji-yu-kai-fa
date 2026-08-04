@@ -13,6 +13,48 @@ const baseURL = import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_API_BA
 let DEMO_MODE = Boolean(import.meta.env.VITE_DEMO_MODE)
 if (typeof location !== 'undefined' && location.search.includes('demo=true')) DEMO_MODE = true
 
+const DEMO_USERS = {
+  admin: { password: 'admin123', role: 'admin', name: '超级管理员' },
+  manager: { password: 'manager123', role: 'manager', name: '项目经理' },
+  engineer: { password: 'engineer123', role: 'engineer', name: '技术工程师' },
+  user01: { password: 'user123', role: 'user', name: '普通用户' },
+}
+
+function isLoginRequest(config) {
+  const url = String(config?.url || '')
+  const method = String(config?.method || '').toUpperCase()
+  return method === 'POST' && /(^|\/)auth\/login(-json)?$/.test(url)
+}
+
+function getDemoLoginPayload(config) {
+  let body = config?.data || {}
+  if (typeof body === 'string') {
+    try { body = JSON.parse(body) } catch (_) { body = {} }
+  }
+  const username = body.username || body.account || 'admin'
+  const password = body.password || ''
+  const account = DEMO_USERS[username]
+  if (!account || account.password !== password) {
+    const err = new Error('演示账号或密码错误')
+    err.response = { status: 401, data: { detail: '演示账号或密码错误' } }
+    throw err
+  }
+  return {
+    access_token: 'DEMO_STATIC_TOKEN_FOR_GITHUB_PAGES',
+    token_type: 'bearer',
+    user: { username, role: account.role, name: account.name },
+  }
+}
+
+function getDemoWritePayload(config) {
+  return {
+    success: true,
+    message: '演示模式操作成功，本次操作不会保存到服务器',
+    url: config?.url || '',
+    method: String(config?.method || 'GET').toUpperCase(),
+  }
+}
+
 // 静态资源基础路径（支持 GitHub Pages 子路径部署）
 // import.meta.env.BASE_URL 在 vite.config.js 的 base 配置生效时自动为 /<repo>/
 const ASSETS_BASE = (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.BASE_URL)
@@ -25,7 +67,7 @@ const ASSETS_BASE = (typeof import.meta !== 'undefined' && import.meta.env && im
  */
 function apiToMockFile(apiPath, method = 'GET', params = null, data = null) {
   // 去掉开头的 /api/ 或 /api
-  let p = String(apiPath || '').replace(/^\/api\/?/, '')
+  let p = String(apiPath || '').replace(/^\/api\/?/, '').replace(/^\/+/, '')
   // query 参数附加（已通过 URL 传入的 params 已在 path 里？这里兼容 request.js 调用时 config.params）
   if (params && typeof params === 'object' && Object.keys(params).length) {
     const qs = new URLSearchParams()
@@ -71,9 +113,40 @@ request.interceptors.request.use((config) => {
   }
   // demo 模式登录：直接生成本地假 token，不走后端
   if (DEMO_MODE) {
-    const isLogin = /auth\/login[^a-zA-Z0-9_]?$/.test(config.url || '') && (config.method || '').toUpperCase() === 'POST'
-    if (isLogin) {
+    if (isLoginRequest(config)) {
       config.__DEMO_LOGIN__ = true
+      config.adapter = async () => {
+        const payload = getDemoLoginPayload(config)
+        localStorage.setItem('token', payload.access_token)
+        localStorage.setItem('user', JSON.stringify(payload.user))
+        return {
+          data: payload,
+          status: 200,
+          statusText: 'OK',
+          headers: {},
+          config,
+          request: null,
+        }
+      }
+    } else {
+      config.adapter = async () => {
+        const method = String(config.method || 'GET').toUpperCase()
+        const isWritable = ['POST', 'PUT', 'PATCH', 'DELETE'].includes(method)
+        let payload
+        try {
+          payload = await fetchMock(apiToMockFile(config.url, method, config.params, config.data))
+        } catch (_) {
+          payload = isWritable ? getDemoWritePayload(config) : {}
+        }
+        return {
+          data: payload,
+          status: 200,
+          statusText: 'OK',
+          headers: {},
+          config,
+          request: null,
+        }
+      }
     }
   }
   return config
@@ -89,11 +162,7 @@ request.interceptors.response.use(
 
     // Demo 模式登录：直接返回假 token
     if (config.__DEMO_LOGIN__) {
-      const payload = {
-        access_token: 'DEMO_STATIC_TOKEN_FOR_GITHUB_PAGES',
-        token_type: 'bearer',
-        user: { username: 'admin', role: 'admin', name: '演示账号（静态模式）' },
-      }
+      const payload = getDemoLoginPayload(config)
       localStorage.setItem('token', payload.access_token)
       localStorage.setItem('user', JSON.stringify(payload.user))
       return payload
