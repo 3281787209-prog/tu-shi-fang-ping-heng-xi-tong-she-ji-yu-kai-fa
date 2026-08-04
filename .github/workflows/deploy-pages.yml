@@ -17,8 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  # 消除 Node20 过时警告
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  NODE_VERSION: 20
 
 # GITHUB_TOKEN 权限（发布 Pages 需要）
 permissions:
@@ -39,28 +38,35 @@ jobs:
   build:
     name: 构建前端静态站
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     defaults:
       run:
         working-directory: frontend
     steps:
       - name: 拉取代码
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: 配置 Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
           cache-dependency-path: frontend/package-lock.json
+
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: 清理残留 node_modules（防止 git 跟踪的旧文件权限问题）
         run: rm -rf node_modules
 
       - name: 安装依赖
-        run: npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+        run: npm ci --include=dev --no-audit --no-fund
 
-      - name: 修复二进制可执行权限
-        run: chmod +x node_modules/.bin/* || true
+      - name: 检查 Vite 安装
+        run: |
+          test -f node_modules/vite/bin/vite.js
+          node ./node_modules/vite/bin/vite.js --version
 
       - name: 构建 (GitHub Pages 子路径 + 演示模式)
         env:
@@ -93,6 +99,9 @@ jobs:
     if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

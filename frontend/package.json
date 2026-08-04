@@ -6,11 +6,11 @@
   "description": "土石方平衡系统设计与开发 · 工程数字化协同平台（Vue3 + VTK.js 三维可视化 + ECharts 数据分析）",
   "homepage": ".",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview --port 4173",
-    "build:pages": "cross-env-shell VITE_DEMO_MODE=true VITE_BASE=/tu-shi-fang-ping-heng-xi-tong-she-ji-yu-kai-fa/ vite build",
-    "build:pages:repo": "cross-env-shell VITE_DEMO_MODE=true vite build"
+    "dev": "node ./node_modules/vite/bin/vite.js",
+    "build": "node ./node_modules/vite/bin/vite.js build",
+    "preview": "node ./node_modules/vite/bin/vite.js preview --port 4173",
+    "build:pages": "cross-env-shell VITE_DEMO_MODE=true VITE_BASE=/tu-shi-fang-ping-heng-xi-tong-she-ji-yu-kai-fa/ node ./node_modules/vite/bin/vite.js build",
+    "build:pages:repo": "cross-env-shell VITE_DEMO_MODE=true node ./node_modules/vite/bin/vite.js build"
   },
   "dependencies": {
     "@kitware/vtk.js": "^34.14.0",
