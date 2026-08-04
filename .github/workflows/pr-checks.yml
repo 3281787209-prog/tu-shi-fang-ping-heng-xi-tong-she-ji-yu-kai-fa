@@ -76,8 +76,14 @@ jobs:
           cache: npm
           cache-dependency-path: frontend/package-lock.json
 
+      - name: 清理残留 node_modules（防止 git 跟踪的旧文件权限问题）
+        run: rm -rf node_modules
+
       - name: 安装依赖
         run: npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+
+      - name: 修复二进制可执行权限
+        run: chmod +x node_modules/.bin/* || true
 
       - name: 生产构建
         env:
