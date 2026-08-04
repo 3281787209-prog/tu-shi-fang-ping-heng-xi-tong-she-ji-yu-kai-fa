@@ -1,89 +1,42 @@
-name: 构建并发布 GitHub Pages 公共网页
-
-# 触发条件：
-#   - main 分支 push（正式发布）
-#   - main.yml 更新或手动 workflow_dispatch
-#   - PR 提交时运行构建检查（不发布）
+name: Build & Deploy Pages
 on:
   push:
-    branches: [main, master]
-    paths:
-      - 'frontend/**'
-      - '.github/workflows/**'
-      - 'README*'
-  pull_request:
-    branches: [main, master]
-    paths:
-      - 'frontend/**'
-  workflow_dispatch:
+    branches: [ main ] # 改成你的主分支，很多项目是master
 
-# GITHUB_TOKEN 权限（发布 Pages 需要）
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
+env:
+  # 消除Node20过时警告
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-  # =====================================================
-  # Job 1: 构建前端产物（GitHub Pages 纯静态公共网页）
-  #   - 强制开启 VITE_DEMO_MODE=true，所有 API 走 public/api-mock/*.json
-  #   - 设置 base 为 /仓库名/，支持 GitHub Pages 子路径
-  # =====================================================
-  build-frontend:
-    name: 构建前端静态站
+  build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: frontend
     steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
+      - name: 拉取代码
+        uses: actions/checkout@v6
 
-      - name: 安装 Node.js
-        uses: actions/setup-node@v4
+      - name: 配置 Node.js
+        uses: actions/setup-node@v6
         with:
-          node-version: 20
-          cache: npm
-          cache-dependency-path: frontend/package-lock.json
+          node-version: 22 # 长期稳定版本，避开Node20/24兼容坑
+          cache: 'npm'
 
       - name: 安装依赖
-        run: npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+        run: npm ci
 
-      - name: 构建 (GitHub Pages 子路径 + 演示模式)
-        env:
-          # 开启离线演示模式：所有 API 走内置 JSON mock，不依赖后端服务器
-          VITE_DEMO_MODE: "true"
-          # GitHub Pages 子路径 = /${GITHUB_REPOSITORY#<owner>/}/ ，即仅仓库名
-          VITE_BASE: "/${GITHUB_REPOSITORY#*/}/"
-          VITE_GITHUB_REPO: "${GITHUB_REPOSITORY#*/}"
-          NODE_OPTIONS: "--max-old-space-size=8192"
+      - name: 构建项目
         run: npm run build
 
-      - name: 校验产物
-        run: |
-          echo "构建完成，产物目录大小："
-          du -sh rebuild-dist 2>/dev/null || echo "du 不可用，跳过"
-          echo "目录结构："
-          ls -la rebuild-dist/
-
-      - name: 上传 Pages 工件
-        if: github.event_name != 'pull_request'
+      - name: 上传构建产物
         uses: actions/upload-pages-artifact@v3
         with:
-          path: frontend/rebuild-dist
+          path: ./dist # vite打包输出目录dist
 
-  # =====================================================
-  # Job 2: 发布到 GitHub Pages（仅 push main/master）
-  # =====================================================
-  deploy-pages:
-    name: 发布 GitHub Pages
-    if: github.event_name != 'pull_request'
-    needs: build-frontend
+  deploy:
+    needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -91,5 +44,3 @@ jobs:
       - name: 部署到 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          artifact_name: github-pages
