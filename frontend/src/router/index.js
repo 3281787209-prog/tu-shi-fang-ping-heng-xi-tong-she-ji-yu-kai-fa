@@ -42,10 +42,11 @@ const router = createRouter({
 
 router.beforeEach((to) => {
   const store = useUserStore()
+  const hasToken = store.isLoggedIn || !!localStorage.getItem('token')
   if (to.meta?.title) document.title = to.meta.title + ' - 土石方平衡协同系统'
   // 三维大屏和图层树大屏：免登录（方便演示 / 链接分享打开）
   if (to.path === '/control-3d' || to.path === '/layer-3d') return true
-  if (!to.meta?.public && !store.isLoggedIn) {
+  if (!to.meta?.public && !hasToken) {
     return { path: '/login', query: { redirect: to.fullPath } }
   }
   if (to.meta?.role && !store.hasRole(...to.meta.role)) {

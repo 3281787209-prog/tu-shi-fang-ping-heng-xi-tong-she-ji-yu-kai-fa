@@ -16,7 +16,7 @@ export const useUserStore = defineStore('user', {
       const res = await api.login({ username, password })
       this.token = res.access_token
       localStorage.setItem('token', res.access_token)
-      const me = await api.getMe()
+      const me = res.user || await api.getMe()
       this.user = me
       localStorage.setItem('user', JSON.stringify(me))
       return me

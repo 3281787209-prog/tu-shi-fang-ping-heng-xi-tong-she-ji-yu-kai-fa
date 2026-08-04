@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "node ./node_modules/vite/bin/vite.js",
     "build": "node ./node_modules/vite/bin/vite.js build",
-    "preview": "node ./node_modules/vite/bin/vite.js preview --port 4173",
+    "preview": "node ./node_modules/vite/bin/vite.js preview --host 127.0.0.1 --port 4173 --outDir rebuild-dist",
     "build:pages": "cross-env-shell VITE_DEMO_MODE=true VITE_BASE=/tu-shi-fang-ping-heng-xi-tong-she-ji-yu-kai-fa/ node ./node_modules/vite/bin/vite.js build",
     "build:pages:repo": "cross-env-shell VITE_DEMO_MODE=true node ./node_modules/vite/bin/vite.js build"
   },
