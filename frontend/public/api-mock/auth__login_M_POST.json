@@ -1,0 +1,9 @@
+{
+  "access_token": "DEMO_STATIC_TOKEN_FOR_GITHUB_PAGES",
+  "token_type": "bearer",
+  "user": {
+    "username": "admin",
+    "role": "admin",
+    "name": "演示账号"
+  }
+}

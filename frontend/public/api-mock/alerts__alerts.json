@@ -1,0 +1,80 @@
+[
+  {
+    "id": 4,
+    "project_id": 1,
+    "rule_id": 6,
+    "level": "warning",
+    "level_label": "警告",
+    "level_color": "#f59e0b",
+    "message": "[WARNING] M02 Z向沉降 -28.6mm，超出预警阈值 -25mm",
+    "status": "ack",
+    "status_label": "已确认",
+    "triggered_at": "2026-08-02T13:48:01.088522",
+    "created_at": "2026-08-04T02:48:01"
+  },
+  {
+    "id": 2,
+    "project_id": 1,
+    "rule_id": 2,
+    "level": "critical",
+    "level_label": "严重",
+    "level_color": "#ef4444",
+    "message": "[CRITICAL] M05位移计持续增大至 52.1mm，触发严重告警",
+    "status": "ack",
+    "status_label": "已确认",
+    "triggered_at": "2026-08-01T20:48:01.088522",
+    "created_at": "2026-08-04T02:48:01"
+  },
+  {
+    "id": 1,
+    "project_id": 1,
+    "rule_id": 2,
+    "level": "warning",
+    "level_label": "警告",
+    "level_color": "#f59e0b",
+    "message": "[WARNING] M03位移计读数突增 34.2mm，超过预警阈值 30mm",
+    "status": "ack",
+    "status_label": "已确认",
+    "triggered_at": "2026-08-01T01:48:01.088522",
+    "created_at": "2026-08-04T02:48:01"
+  },
+  {
+    "id": 6,
+    "project_id": 1,
+    "rule_id": 4,
+    "level": "critical",
+    "level_label": "严重",
+    "level_color": "#ef4444",
+    "message": "[CRITICAL] S04最小主应力 -5.3MPa，压应力集中",
+    "status": "closed",
+    "status_label": "已关闭",
+    "triggered_at": "2026-07-31T03:48:01.088522",
+    "created_at": "2026-08-04T02:48:01"
+  },
+  {
+    "id": 3,
+    "project_id": 1,
+    "rule_id": 3,
+    "level": "warning",
+    "level_label": "警告",
+    "level_color": "#f59e0b",
+    "message": "[WARNING] S02锚索应力计最大主应力 3.82MPa，超过阈值 3.5MPa",
+    "status": "closed",
+    "status_label": "已关闭",
+    "triggered_at": "2026-07-30T04:48:01.088522",
+    "created_at": "2026-08-04T02:48:01"
+  },
+  {
+    "id": 5,
+    "project_id": 1,
+    "rule_id": 7,
+    "level": "info",
+    "level_label": "提示",
+    "level_color": "#3b82f6",
+    "message": "[INFO] P01 渗压计读数 95.2kPa，伴随降雨入渗上升",
+    "status": "open",
+    "status_label": "待处理",
+    "triggered_at": "2026-07-29T02:48:01.088522",
+    "created_at": "2026-08-04T02:48:01"
+  }
+]

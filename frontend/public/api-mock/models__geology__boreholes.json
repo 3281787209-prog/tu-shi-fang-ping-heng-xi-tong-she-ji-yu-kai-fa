@@ -1,0 +1,347 @@
+[
+  {
+    "id": 1,
+    "project_id": 1,
+    "hole_code": "ZK01",
+    "x": 490,
+    "y": -190,
+    "z": 585,
+    "depth": 95,
+    "stratigraphy": [
+      {
+        "depth_from": 0,
+        "depth_to": 2.4,
+        "stratum_name": "①素填土",
+        "lithology": "粉土",
+        "weathering": "",
+        "fak_kPa": 120
+      },
+      {
+        "depth_from": 2.4,
+        "depth_to": 13.9,
+        "stratum_name": "②黄土状粉土",
+        "lithology": "粉土",
+        "weathering": "",
+        "fak_kPa": 180
+      },
+      {
+        "depth_from": 13.9,
+        "depth_to": 18.7,
+        "stratum_name": "③古土壤",
+        "lithology": "粉质黏土",
+        "weathering": "",
+        "fak_kPa": 260
+      },
+      {
+        "depth_from": 18.7,
+        "depth_to": 60.7,
+        "stratum_name": "④砂岩互层",
+        "lithology": "砂岩+泥岩",
+        "weathering": "强~弱风化",
+        "fak_kPa": 800
+      },
+      {
+        "depth_from": 60.7,
+        "depth_to": 95,
+        "stratum_name": "⑤泥岩夹煤层",
+        "lithology": "泥岩",
+        "weathering": "微风化",
+        "fak_kPa": 1500
+      }
+    ],
+    "soil_samples": {
+      "S-01": {
+        "depth_m": 5.0,
+        "w_n_pct": 18.2,
+        "e": 0.78,
+        "gamma_kN_m3": 19.5,
+        "c_kPa": 22,
+        "phi_deg": 24.5
+      },
+      "S-02": {
+        "depth_m": 25.0,
+        "w_n_pct": 5.8,
+        "e": 0.42,
+        "gamma_kN_m3": 24.8,
+        "UCS_MPa": 21.3
+      }
+    },
+    "created_at": "2026-08-04T02:47:59"
+  },
+  {
+    "id": 2,
+    "project_id": 1,
+    "hole_code": "ZK02",
+    "x": 504,
+    "y": -185,
+    "z": 590,
+    "depth": 102,
+    "stratigraphy": [
+      {
+        "depth_from": 0,
+        "depth_to": 2.4,
+        "stratum_name": "①素填土",
+        "lithology": "粉土",
+        "weathering": "",
+        "fak_kPa": 120
+      },
+      {
+        "depth_from": 2.4,
+        "depth_to": 13.9,
+        "stratum_name": "②黄土状粉土",
+        "lithology": "粉土",
+        "weathering": "",
+        "fak_kPa": 180
+      },
+      {
+        "depth_from": 13.9,
+        "depth_to": 18.7,
+        "stratum_name": "③古土壤",
+        "lithology": "粉质黏土",
+        "weathering": "",
+        "fak_kPa": 260
+      },
+      {
+        "depth_from": 18.7,
+        "depth_to": 60.7,
+        "stratum_name": "④砂岩互层",
+        "lithology": "砂岩+泥岩",
+        "weathering": "强~弱风化",
+        "fak_kPa": 800
+      },
+      {
+        "depth_from": 60.7,
+        "depth_to": 102,
+        "stratum_name": "⑤泥岩夹煤层",
+        "lithology": "泥岩",
+        "weathering": "微风化",
+        "fak_kPa": 1500
+      }
+    ],
+    "soil_samples": {
+      "S-01": {
+        "depth_m": 5.0,
+        "w_n_pct": 18.2,
+        "e": 0.78,
+        "gamma_kN_m3": 19.5,
+        "c_kPa": 22,
+        "phi_deg": 24.5
+      },
+      "S-02": {
+        "depth_m": 25.0,
+        "w_n_pct": 5.8,
+        "e": 0.42,
+        "gamma_kN_m3": 24.8,
+        "UCS_MPa": 21.3
+      }
+    },
+    "created_at": "2026-08-04T02:47:59"
+  },
+  {
+    "id": 3,
+    "project_id": 1,
+    "hole_code": "ZK03",
+    "x": 520,
+    "y": -175,
+    "z": 582,
+    "depth": 88,
+    "stratigraphy": [
+      {
+        "depth_from": 0,
+        "depth_to": 2.4,
+        "stratum_name": "①素填土",
+        "lithology": "粉土",
+        "weathering": "",
+        "fak_kPa": 120
+      },
+      {
+        "depth_from": 2.4,
+        "depth_to": 13.9,
+        "stratum_name": "②黄土状粉土",
+        "lithology": "粉土",
+        "weathering": "",
+        "fak_kPa": 180
+      },
+      {
+        "depth_from": 13.9,
+        "depth_to": 18.7,
+        "stratum_name": "③古土壤",
+        "lithology": "粉质黏土",
+        "weathering": "",
+        "fak_kPa": 260
+      },
+      {
+        "depth_from": 18.7,
+        "depth_to": 60.7,
+        "stratum_name": "④砂岩互层",
+        "lithology": "砂岩+泥岩",
+        "weathering": "强~弱风化",
+        "fak_kPa": 800
+      },
+      {
+        "depth_from": 60.7,
+        "depth_to": 88,
+        "stratum_name": "⑤泥岩夹煤层",
+        "lithology": "泥岩",
+        "weathering": "微风化",
+        "fak_kPa": 1500
+      }
+    ],
+    "soil_samples": {
+      "S-01": {
+        "depth_m": 5.0,
+        "w_n_pct": 18.2,
+        "e": 0.78,
+        "gamma_kN_m3": 19.5,
+        "c_kPa": 22,
+        "phi_deg": 24.5
+      },
+      "S-02": {
+        "depth_m": 25.0,
+        "w_n_pct": 5.8,
+        "e": 0.42,
+        "gamma_kN_m3": 24.8,
+        "UCS_MPa": 21.3
+      }
+    },
+    "created_at": "2026-08-04T02:47:59"
+  },
+  {
+    "id": 4,
+    "project_id": 1,
+    "hole_code": "ZK04",
+    "x": 480,
+    "y": -200,
+    "z": 578,
+    "depth": 110,
+    "stratigraphy": [
+      {
+        "depth_from": 0,
+        "depth_to": 2.4,
+        "stratum_name": "①素填土",
+        "lithology": "粉土",
+        "weathering": "",
+        "fak_kPa": 120
+      },
+      {
+        "depth_from": 2.4,
+        "depth_to": 13.9,
+        "stratum_name": "②黄土状粉土",
+        "lithology": "粉土",
+        "weathering": "",
+        "fak_kPa": 180
+      },
+      {
+        "depth_from": 13.9,
+        "depth_to": 18.7,
+        "stratum_name": "③古土壤",
+        "lithology": "粉质黏土",
+        "weathering": "",
+        "fak_kPa": 260
+      },
+      {
+        "depth_from": 18.7,
+        "depth_to": 60.7,
+        "stratum_name": "④砂岩互层",
+        "lithology": "砂岩+泥岩",
+        "weathering": "强~弱风化",
+        "fak_kPa": 800
+      },
+      {
+        "depth_from": 60.7,
+        "depth_to": 110,
+        "stratum_name": "⑤泥岩夹煤层",
+        "lithology": "泥岩",
+        "weathering": "微风化",
+        "fak_kPa": 1500
+      }
+    ],
+    "soil_samples": {
+      "S-01": {
+        "depth_m": 5.0,
+        "w_n_pct": 18.2,
+        "e": 0.78,
+        "gamma_kN_m3": 19.5,
+        "c_kPa": 22,
+        "phi_deg": 24.5
+      },
+      "S-02": {
+        "depth_m": 25.0,
+        "w_n_pct": 5.8,
+        "e": 0.42,
+        "gamma_kN_m3": 24.8,
+        "UCS_MPa": 21.3
+      }
+    },
+    "created_at": "2026-08-04T02:47:59"
+  },
+  {
+    "id": 5,
+    "project_id": 1,
+    "hole_code": "ZK05",
+    "x": 530,
+    "y": -165,
+    "z": 588,
+    "depth": 92,
+    "stratigraphy": [
+      {
+        "depth_from": 0,
+        "depth_to": 2.4,
+        "stratum_name": "①素填土",
+        "lithology": "粉土",
+        "weathering": "",
+        "fak_kPa": 120
+      },
+      {
+        "depth_from": 2.4,
+        "depth_to": 13.9,
+        "stratum_name": "②黄土状粉土",
+        "lithology": "粉土",
+        "weathering": "",
+        "fak_kPa": 180
+      },
+      {
+        "depth_from": 13.9,
+        "depth_to": 18.7,
+        "stratum_name": "③古土壤",
+        "lithology": "粉质黏土",
+        "weathering": "",
+        "fak_kPa": 260
+      },
+      {
+        "depth_from": 18.7,
+        "depth_to": 60.7,
+        "stratum_name": "④砂岩互层",
+        "lithology": "砂岩+泥岩",
+        "weathering": "强~弱风化",
+        "fak_kPa": 800
+      },
+      {
+        "depth_from": 60.7,
+        "depth_to": 92,
+        "stratum_name": "⑤泥岩夹煤层",
+        "lithology": "泥岩",
+        "weathering": "微风化",
+        "fak_kPa": 1500
+      }
+    ],
+    "soil_samples": {
+      "S-01": {
+        "depth_m": 5.0,
+        "w_n_pct": 18.2,
+        "e": 0.78,
+        "gamma_kN_m3": 19.5,
+        "c_kPa": 22,
+        "phi_deg": 24.5
+      },
+      "S-02": {
+        "depth_m": 25.0,
+        "w_n_pct": 5.8,
+        "e": 0.42,
+        "gamma_kN_m3": 24.8,
+        "UCS_MPa": 21.3
+      }
+    },
+    "created_at": "2026-08-04T02:47:59"
+  }
+]

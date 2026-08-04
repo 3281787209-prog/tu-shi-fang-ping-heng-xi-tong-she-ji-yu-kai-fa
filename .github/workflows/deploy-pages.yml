@@ -1,0 +1,95 @@
+name: 构建并发布 GitHub Pages 公共网页
+
+# 触发条件：
+#   - main 分支 push（正式发布）
+#   - main.yml 更新或手动 workflow_dispatch
+#   - PR 提交时运行构建检查（不发布）
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'frontend/**'
+      - '.github/workflows/**'
+      - 'README*'
+  pull_request:
+    branches: [main, master]
+    paths:
+      - 'frontend/**'
+  workflow_dispatch:
+
+# GITHUB_TOKEN 权限（发布 Pages 需要）
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  # =====================================================
+  # Job 1: 构建前端产物（GitHub Pages 纯静态公共网页）
+  #   - 强制开启 VITE_DEMO_MODE=true，所有 API 走 public/api-mock/*.json
+  #   - 设置 base 为 /仓库名/，支持 GitHub Pages 子路径
+  # =====================================================
+  build-frontend:
+    name: 构建前端静态站
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: 安装依赖
+        run: npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+
+      - name: 构建 (GitHub Pages 子路径 + 演示模式)
+        env:
+          # 开启离线演示模式：所有 API 走内置 JSON mock，不依赖后端服务器
+          VITE_DEMO_MODE: "true"
+          # GitHub Pages 子路径 = /${GITHUB_REPOSITORY#<owner>/}/ ，即仅仓库名
+          VITE_BASE: "/${GITHUB_REPOSITORY#*/}/"
+          VITE_GITHUB_REPO: "${GITHUB_REPOSITORY#*/}"
+          NODE_OPTIONS: "--max-old-space-size=8192"
+        run: npm run build
+
+      - name: 校验产物
+        run: |
+          echo "构建完成，产物目录大小："
+          du -sh rebuild-dist 2>/dev/null || echo "du 不可用，跳过"
+          echo "目录结构："
+          ls -la rebuild-dist/
+
+      - name: 上传 Pages 工件
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/rebuild-dist
+
+  # =====================================================
+  # Job 2: 发布到 GitHub Pages（仅 push main/master）
+  # =====================================================
+  deploy-pages:
+    name: 发布 GitHub Pages
+    if: github.event_name != 'pull_request'
+    needs: build-frontend
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages

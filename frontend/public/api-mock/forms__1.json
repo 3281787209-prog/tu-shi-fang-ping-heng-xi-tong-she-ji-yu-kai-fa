@@ -1,0 +1,37 @@
+{
+  "id": 1,
+  "project_id": 1,
+  "form_type": "schedule_plan",
+  "title": "土石方平衡总体调度方案（第1版）",
+  "status": "approved",
+  "current_step": -1,
+  "data": {
+    "excavation_volume": 1856.4,
+    "fill_volume": 932.7,
+    "borrow_volume": 218.5,
+    "discard_volume": 1142.2,
+    "construction_period_month": 28,
+    "peak_transport_per_day_10k_m3": 6.5,
+    "dump_sites": [
+      "A-1#弃渣场(容量720万m³)",
+      "A-3#弃渣场(容量480万m³)"
+    ],
+    "borrow_sources": [
+      "B-2#取土场(储量320万m³)"
+    ],
+    "transport_routes": [
+      {
+        "name": "北线-主干便道",
+        "capacity_10k_m3_day": 4.2,
+        "length_km": 5.8
+      },
+      {
+        "name": "南线-临建道路",
+        "capacity_10k_m3_day": 2.8,
+        "length_km": 7.2
+      }
+    ]
+  },
+  "created_by": "engineer",
+  "created_at": "2026-08-04T02:48:00"
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "project_id": 1,
+    "name": "① 素填土层(Qml)",
+    "layer_type": "stratum",
+    "description": "黄褐色，稍湿，松散~稍密，主要成分为粉土，含植物根系。层厚 1.5~3.2m。",
+    "stage_key": "exac_1",
+    "properties": {
+      "thickness_m": 2.4,
+      "lithology": "粉土",
+      "weathering": "无",
+      "fak_kPa": 120,
+      "gamma_kN_m3": 18.5
+    },
+    "created_at": "2026-08-04T02:47:59"
+  },
+  {
+    "id": 2,
+    "project_id": 1,
+    "name": "② 黄土状粉土层(Q3eol)",
+    "layer_type": "stratum",
+    "description": "浅灰黄色，大孔结构，垂直节理发育，具湿陷性。层厚 8~15m。",
+    "stage_key": "exac_1",
+    "properties": {
+      "thickness_m": 11.5,
+      "lithology": "黄土状粉土",
+      "weathering": "无",
+      "fak_kPa": 180,
+      "gamma_kN_m3": 17.8,
+      "collapsibility": "II级(中等)"
+    },
+    "created_at": "2026-08-04T02:47:59"
+  },
+  {
+    "id": 3,
+    "project_id": 1,
+    "name": "③ 古土壤层(Q2el)",
+    "layer_type": "stratum",
+    "description": "棕红色，含钙质结核及菌丝体，结构致密。层厚 3~6m。",
+    "stage_key": "exac_1",
+    "properties": {
+      "thickness_m": 4.8,
+      "lithology": "粉质黏土",
+      "weathering": "无",
+      "fak_kPa": 260,
+      "gamma_kN_m3": 19.6
+    },
+    "created_at": "2026-08-04T02:47:59"
+  },
+  {
+    "id": 4,
+    "project_id": 1,
+    "name": "④ 砂岩互层(T2e2)",
+    "layer_type": "bedrock",
+    "description": "灰黄色中细粒砂岩与紫红色泥岩互层，中厚层状构造。",
+    "stage_key": "exac_1",
+    "properties": {
+      "thickness_m": 42.0,
+      "lithology": "砂岩+泥岩互层",
+      "weathering": "强风化~弱风化",
+      "fak_kPa": 800,
+      "gamma_kN_m3": 24.5,
+      "UCS_MPa": 18.5
+    },
+    "created_at": "2026-08-04T02:47:59"
+  },
+  {
+    "id": 5,
+    "project_id": 1,
+    "name": "⑤ 泥岩夹煤层(T2e1)",
+    "layer_type": "bedrock",
+    "description": "深灰色泥岩为主，夹 3~5 层薄煤层，岩层产状 N15°W/ NE∠8°。",
+    "stage_key": "exac_1",
+    "properties": {
+      "thickness_m": 65.0,
+      "lithology": "泥岩+煤层",
+      "weathering": "微风化~新鲜",
+      "fak_kPa": 1500,
+      "gamma_kN_m3": 25.2,
+      "UCS_MPa": 32.0
+    },
+    "created_at": "2026-08-04T02:47:59"
+  },
+  {
+    "id": 6,
+    "project_id": 1,
+    "name": "F1 断层破碎带",
+    "layer_type": "fault",
+    "description": "走向 N30°W，倾向 NE，倾角 70°，破碎带宽 2~5m，充填断层泥及角砾。",
+    "stage_key": "exac_1",
+    "properties": {
+      "strike": "N30°W",
+      "dip_direction": "NE",
+      "dip_angle": 70,
+      "width_m": 3.5,
+      "fak_kPa": 150
+    },
+    "created_at": "2026-08-04T02:47:59"
+  },
+  {
+    "id": 7,
+    "project_id": 1,
+    "name": "L1 潜在滑移带",
+    "layer_type": "slip_zone",
+    "description": "砂岩/泥岩接触面，泥化夹层厚 2~5cm，抗剪强度参数降低明显。",
+    "stage_key": "exac_12",
+    "properties": {
+      "thickness_cm": 3.5,
+      "c_kPa": 12,
+      "phi_deg": 15.5,
+      "likely_stage": "exac_12"
+    },
+    "created_at": "2026-08-04T02:47:59"
+  },
+  {
+    "id": 8,
+    "project_id": 1,
+    "name": "第12步开挖轮廓面",
+    "layer_type": "excavation",
+    "description": "对应工况 exac_12，开挖至高程约 540m，马道宽度 2m。",
+    "stage_key": "exac_12",
+    "properties": {
+      "elevation_m": 540,
+      "bench_width_m": 2.0,
+      "slope_ratio": 1.25
+    },
+    "created_at": "2026-08-04T02:47:59"
+  }
+]

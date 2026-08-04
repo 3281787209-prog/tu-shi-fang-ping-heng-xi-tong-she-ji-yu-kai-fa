@@ -1,0 +1,9 @@
+{
+  "excavation": 1856.4,
+  "fill": 932.7,
+  "borrow": 218.5,
+  "discard": 1142.2,
+  "balance": 923.7,
+  "utilization_rate": 50.2,
+  "unit": "万m³"
+}

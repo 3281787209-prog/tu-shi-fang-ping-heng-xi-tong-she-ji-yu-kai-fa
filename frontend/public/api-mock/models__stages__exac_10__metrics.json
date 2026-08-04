@@ -1,0 +1,227 @@
+{
+  "stage_key": "exac_10",
+  "metrics": [
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Group Slot : Default_ID",
+      "range_min": 0.0,
+      "range_max": 0.0
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Stress_Max_Principal",
+      "range_min": -3900231.0,
+      "range_max": 407987.90625
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Stress_Mid_Principal",
+      "range_min": -3929324.5,
+      "range_max": 75875.859375
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Stress_Min_Principal",
+      "range_min": -7868521.5,
+      "range_max": 14231.042969
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Stress_XX",
+      "range_min": -3912810.75,
+      "range_max": 76351.992188
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Stress_YY",
+      "range_min": -3923303.75,
+      "range_max": 118705.71875
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Stress_ZZ",
+      "range_min": -7868303.5,
+      "range_max": 98533.007812
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "TotalDisplacement",
+      "range_min": 0.0,
+      "range_max": 0.018614001572
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "X_Disp",
+      "range_min": -0.0038207292091,
+      "range_max": 0.0067553790286
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Y_Disp",
+      "range_min": -0.0034647632856,
+      "range_max": 0.0025823873002
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Z_Disp",
+      "range_min": -1.3400715943e-05,
+      "range_max": 0.018422186375
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "vtkOriginalPointIds",
+      "range_min": 0.0,
+      "range_max": 306755.0
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "vtkOriginalCellIds",
+      "range_min": 0.0,
+      "range_max": 583718.0
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Points",
+      "range_min": 412.05136349,
+      "range_max": 1080.3718305
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "TotalDisplacement",
+      "range_min": 0.0010892003775,
+      "range_max": 0.018614001572
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "X_Disp",
+      "range_min": -0.0038207292091,
+      "range_max": 0.0067553790286
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "Y_Disp",
+      "range_min": -0.0034647632856,
+      "range_max": 0.0025823873002
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "Z_Disp",
+      "range_min": 0.00036118266871,
+      "range_max": 0.018422186375
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "vtkOriginalPointIds",
+      "range_min": 0.0,
+      "range_max": 4279.0
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "Group Slot : Default_ID",
+      "range_min": 0.0,
+      "range_max": 0.0
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "Stress_XX",
+      "range_min": -179153.4375,
+      "range_max": 76351.992188
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "Stress_YY",
+      "range_min": -525039.5625,
+      "range_max": 79722.859375
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "Stress_ZZ",
+      "range_min": -473823.0625,
+      "range_max": 16182.957031
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "Stress_Min_Principal",
+      "range_min": -537501.75,
+      "range_max": 6431.6108398
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "Stress_Mid_Principal",
+      "range_min": -485461.875,
+      "range_max": 75875.859375
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "Stress_Max_Principal",
+      "range_min": -83693.164062,
+      "range_max": 83314.507812
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "vtkOriginalCellIds",
+      "range_min": 0.0,
+      "range_max": 4205.0
+    },
+    {
+      "source_file": "cavity_surface.vtp",
+      "scalar_key": "Points",
+      "range_min": 736.27244593,
+      "range_max": 971.59399718
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "TotalDisplacement",
+      "range_min": 0.00154,
+      "range_max": 0.01848
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "X_Disp",
+      "range_min": -0.01232,
+      "range_max": 0.01386
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Y_Disp",
+      "range_min": -0.01078,
+      "range_max": 0.01232
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Z_Disp",
+      "range_min": -0.0154,
+      "range_max": 0.00462
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Stress_Max_Principal",
+      "range_min": 0.077,
+      "range_max": 4.389
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Stress_Min_Principal",
+      "range_min": -6.468,
+      "range_max": -0.1232
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Stress_XX",
+      "range_min": -2.772,
+      "range_max": 2.31
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Stress_YY",
+      "range_min": -3.85,
+      "range_max": 3.388
+    },
+    {
+      "source_file": "full_model.vtp",
+      "scalar_key": "Stress_ZZ",
+      "range_min": -4.774,
+      "range_max": 1.232
+    }
+  ]
+}

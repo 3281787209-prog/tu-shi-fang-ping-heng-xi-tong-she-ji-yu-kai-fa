@@ -1,0 +1,22 @@
+{
+  "counters": {
+    "project_count": 1,
+    "form_count": 7,
+    "pending_form_count": 2,
+    "my_pending_count": 0,
+    "sensor_count": 15,
+    "alert_count": 6,
+    "open_alert_count": 1,
+    "geology_layer_count": 8,
+    "borehole_count": 5,
+    "stage_count": 23
+  },
+  "extremes": {
+    "max_displacement_m": 0.02784,
+    "max_stress_MPa": 412188.25
+  },
+  "current_user": {
+    "username": "admin",
+    "role": "admin"
+  }
+}

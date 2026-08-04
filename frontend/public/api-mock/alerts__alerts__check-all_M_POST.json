@@ -1,0 +1,18 @@
+{
+  "message": "巡检完成，触发2条新告警",
+  "triggered_count": 2,
+  "new_alerts": [
+    {
+      "id": 99901,
+      "level": "warning",
+      "message": "M01速率异常",
+      "status": "open"
+    },
+    {
+      "id": 99902,
+      "level": "critical",
+      "message": "M05位移超限",
+      "status": "open"
+    }
+  ]
+}

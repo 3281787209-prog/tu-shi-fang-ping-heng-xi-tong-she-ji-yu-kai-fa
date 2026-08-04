@@ -1,0 +1,31 @@
+{
+  "id": 2,
+  "project_id": 1,
+  "form_type": "earthwork_allocation",
+  "title": "exac_1 ~ exac_8 分步开挖调配单",
+  "status": "approved",
+  "current_step": -1,
+  "data": {
+    "stage_range": "exac_1 至 exac_8",
+    "total_stage_volume_10k_m3": 568.2,
+    "stages": [
+      {
+        "stage": "exac_1",
+        "volume_10k_m3": 42.5,
+        "target": "A-1#弃渣场"
+      },
+      {
+        "stage": "exac_4",
+        "volume_10k_m3": 78.3,
+        "target": "B-2#取土场反压区"
+      },
+      {
+        "stage": "exac_8",
+        "volume_10k_m3": 95.6,
+        "target": "A-1#弃渣场"
+      }
+    ]
+  },
+  "created_by": "engineer",
+  "created_at": "2026-08-04T02:48:00"
+}

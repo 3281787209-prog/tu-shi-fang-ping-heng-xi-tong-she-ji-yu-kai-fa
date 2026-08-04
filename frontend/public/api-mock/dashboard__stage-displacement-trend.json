@@ -1,0 +1,163 @@
+[
+  {
+    "stage": "exac_1",
+    "stage_num": 1,
+    "max_disp_mm": 12.0,
+    "max_stress_MPa": 2.85,
+    "min_stress_MPa": 0.08
+  },
+  {
+    "stage": "exac_2",
+    "stage_num": 2,
+    "max_disp_mm": 12.72,
+    "max_stress_MPa": 3.02,
+    "min_stress_MPa": 0.08
+  },
+  {
+    "stage": "exac_3",
+    "stage_num": 3,
+    "max_disp_mm": 13.44,
+    "max_stress_MPa": 3.19,
+    "min_stress_MPa": 0.09
+  },
+  {
+    "stage": "exac_4",
+    "stage_num": 4,
+    "max_disp_mm": 14.16,
+    "max_stress_MPa": 3.36,
+    "min_stress_MPa": 0.09
+  },
+  {
+    "stage": "exac_5",
+    "stage_num": 5,
+    "max_disp_mm": 14.88,
+    "max_stress_MPa": 3.53,
+    "min_stress_MPa": 0.1
+  },
+  {
+    "stage": "exac_6",
+    "stage_num": 6,
+    "max_disp_mm": 15.6,
+    "max_stress_MPa": 3.71,
+    "min_stress_MPa": 0.1
+  },
+  {
+    "stage": "exac_7",
+    "stage_num": 7,
+    "max_disp_mm": 16.32,
+    "max_stress_MPa": 3.88,
+    "min_stress_MPa": 0.11
+  },
+  {
+    "stage": "exac_8",
+    "stage_num": 8,
+    "max_disp_mm": 17.04,
+    "max_stress_MPa": 4.05,
+    "min_stress_MPa": 0.11
+  },
+  {
+    "stage": "exac_9",
+    "stage_num": 9,
+    "max_disp_mm": 17.76,
+    "max_stress_MPa": 4.22,
+    "min_stress_MPa": 0.12
+  },
+  {
+    "stage": "exac_10",
+    "stage_num": 10,
+    "max_disp_mm": 18.48,
+    "max_stress_MPa": 4.39,
+    "min_stress_MPa": 0.12
+  },
+  {
+    "stage": "exac_11",
+    "stage_num": 11,
+    "max_disp_mm": 19.2,
+    "max_stress_MPa": 4.56,
+    "min_stress_MPa": 0.13
+  },
+  {
+    "stage": "exac_12",
+    "stage_num": 12,
+    "max_disp_mm": 19.92,
+    "max_stress_MPa": 4.73,
+    "min_stress_MPa": 0.13
+  },
+  {
+    "stage": "exac_13",
+    "stage_num": 13,
+    "max_disp_mm": 20.64,
+    "max_stress_MPa": 4.9,
+    "min_stress_MPa": 0.14
+  },
+  {
+    "stage": "exac_14",
+    "stage_num": 14,
+    "max_disp_mm": 21.36,
+    "max_stress_MPa": 5.07,
+    "min_stress_MPa": 0.14
+  },
+  {
+    "stage": "exac_15",
+    "stage_num": 15,
+    "max_disp_mm": 22.08,
+    "max_stress_MPa": 5.24,
+    "min_stress_MPa": 0.15
+  },
+  {
+    "stage": "exac_16",
+    "stage_num": 16,
+    "max_disp_mm": 22.8,
+    "max_stress_MPa": 5.42,
+    "min_stress_MPa": 0.15
+  },
+  {
+    "stage": "exac_17",
+    "stage_num": 17,
+    "max_disp_mm": 23.52,
+    "max_stress_MPa": 5.59,
+    "min_stress_MPa": 0.16
+  },
+  {
+    "stage": "exac_18",
+    "stage_num": 18,
+    "max_disp_mm": 24.24,
+    "max_stress_MPa": 5.76,
+    "min_stress_MPa": 0.16
+  },
+  {
+    "stage": "exac_19",
+    "stage_num": 19,
+    "max_disp_mm": 24.96,
+    "max_stress_MPa": 5.93,
+    "min_stress_MPa": 0.17
+  },
+  {
+    "stage": "exac_20",
+    "stage_num": 20,
+    "max_disp_mm": 25.68,
+    "max_stress_MPa": 6.1,
+    "min_stress_MPa": 0.17
+  },
+  {
+    "stage": "exac_21",
+    "stage_num": 21,
+    "max_disp_mm": 26.4,
+    "max_stress_MPa": 6.27,
+    "min_stress_MPa": 0.18
+  },
+  {
+    "stage": "exac_22",
+    "stage_num": 22,
+    "max_disp_mm": 27.12,
+    "max_stress_MPa": 6.44,
+    "min_stress_MPa": 0.18
+  },
+  {
+    "stage": "exac_23",
+    "stage_num": 23,
+    "max_disp_mm": 27.84,
+    "max_stress_MPa": 6.61,
+    "min_stress_MPa": 0.19
+  }
+]

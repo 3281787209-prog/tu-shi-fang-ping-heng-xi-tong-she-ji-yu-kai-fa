@@ -1,0 +1,186 @@
+[
+  {
+    "stage_key": "exac_1",
+    "full_path": "model_cache/exac_1/full_model.vtp",
+    "cavity_path": "model_cache/exac_1/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_10",
+    "full_path": "model_cache/exac_10/full_model.vtp",
+    "cavity_path": "model_cache/exac_10/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_11",
+    "full_path": "model_cache/exac_11/full_model.vtp",
+    "cavity_path": "model_cache/exac_11/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_12",
+    "full_path": "model_cache/exac_12/full_model.vtp",
+    "cavity_path": "model_cache/exac_12/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_13",
+    "full_path": "model_cache/exac_13/full_model.vtp",
+    "cavity_path": "model_cache/exac_13/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_14",
+    "full_path": "model_cache/exac_14/full_model.vtp",
+    "cavity_path": "model_cache/exac_14/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_15",
+    "full_path": "model_cache/exac_15/full_model.vtp",
+    "cavity_path": "model_cache/exac_15/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_16",
+    "full_path": "model_cache/exac_16/full_model.vtp",
+    "cavity_path": "model_cache/exac_16/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_17",
+    "full_path": "model_cache/exac_17/full_model.vtp",
+    "cavity_path": "model_cache/exac_17/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_18",
+    "full_path": "model_cache/exac_18/full_model.vtp",
+    "cavity_path": "model_cache/exac_18/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_19",
+    "full_path": "model_cache/exac_19/full_model.vtp",
+    "cavity_path": "model_cache/exac_19/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_2",
+    "full_path": "model_cache/exac_2/full_model.vtp",
+    "cavity_path": "model_cache/exac_2/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_20",
+    "full_path": "model_cache/exac_20/full_model.vtp",
+    "cavity_path": "model_cache/exac_20/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_21",
+    "full_path": "model_cache/exac_21/full_model.vtp",
+    "cavity_path": "model_cache/exac_21/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_22",
+    "full_path": "model_cache/exac_22/full_model.vtp",
+    "cavity_path": "model_cache/exac_22/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_23",
+    "full_path": "model_cache/exac_23/full_model.vtp",
+    "cavity_path": "model_cache/exac_23/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_3",
+    "full_path": "model_cache/exac_3/full_model.vtp",
+    "cavity_path": "model_cache/exac_3/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_4",
+    "full_path": "model_cache/exac_4/full_model.vtp",
+    "cavity_path": "model_cache/exac_4/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_5",
+    "full_path": "model_cache/exac_5/full_model.vtp",
+    "cavity_path": "model_cache/exac_5/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_6",
+    "full_path": "model_cache/exac_6/full_model.vtp",
+    "cavity_path": "model_cache/exac_6/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_7",
+    "full_path": "model_cache/exac_7/full_model.vtp",
+    "cavity_path": "model_cache/exac_7/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_8",
+    "full_path": "model_cache/exac_8/full_model.vtp",
+    "cavity_path": "model_cache/exac_8/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  },
+  {
+    "stage_key": "exac_9",
+    "full_path": "model_cache/exac_9/full_model.vtp",
+    "cavity_path": "model_cache/exac_9/cavity_surface.vtp",
+    "slice_count_x": 5,
+    "slice_count_y": 5,
+    "slice_count_z": 5
+  }
+]

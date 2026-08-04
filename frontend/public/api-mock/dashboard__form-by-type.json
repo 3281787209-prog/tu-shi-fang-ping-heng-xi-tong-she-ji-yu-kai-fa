@@ -1,0 +1,58 @@
+[
+  {
+    "type": "change_request",
+    "label": "变更申请",
+    "total": 1,
+    "approved": 0,
+    "pending": 1,
+    "rejected": 0
+  },
+  {
+    "type": "earthwork_allocation",
+    "label": "土石方调配方案",
+    "total": 1,
+    "approved": 1,
+    "pending": 0,
+    "rejected": 0
+  },
+  {
+    "type": "exception_report",
+    "label": "异常上报",
+    "total": 1,
+    "approved": 0,
+    "pending": 0,
+    "rejected": 0
+  },
+  {
+    "type": "geology_survey",
+    "label": "地质勘察报告",
+    "total": 1,
+    "approved": 0,
+    "pending": 1,
+    "rejected": 0
+  },
+  {
+    "type": "monitoring_report",
+    "label": "监测报告",
+    "total": 1,
+    "approved": 1,
+    "pending": 0,
+    "rejected": 0
+  },
+  {
+    "type": "param_calculation",
+    "label": "参数计算审批",
+    "total": 1,
+    "approved": 0,
+    "pending": 0,
+    "rejected": 0
+  },
+  {
+    "type": "schedule_plan",
+    "label": "土石方调度方案",
+    "total": 1,
+    "approved": 1,
+    "pending": 0,
+    "rejected": 0
+  }
+]

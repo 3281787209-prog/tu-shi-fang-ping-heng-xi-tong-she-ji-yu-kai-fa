@@ -1,0 +1,31 @@
+{
+  "total_sensors": 15,
+  "by_type": [
+    {
+      "type": "displacement",
+      "label": "位移计",
+      "count": 6
+    },
+    {
+      "type": "inclinometer",
+      "label": "测斜仪",
+      "count": 2
+    },
+    {
+      "type": "piezometer",
+      "label": "渗压计",
+      "count": 2
+    },
+    {
+      "type": "stress",
+      "label": "应力计",
+      "count": 4
+    },
+    {
+      "type": "water_level",
+      "label": "水位计",
+      "count": 1
+    }
+  ],
+  "reading_count_24h": 156
+}

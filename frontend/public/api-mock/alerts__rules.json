@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "project_id": 1,
+    "name": "总位移预警(mm级)",
+    "field_key": "TotalDisplacement",
+    "comparator": ">",
+    "comparator_label": "大于",
+    "threshold": 0.03,
+    "level": "warning",
+    "level_label": "警告",
+    "level_color": "#f59e0b",
+    "created_at": "2026-08-04T02:48:00"
+  },
+  {
+    "id": 2,
+    "project_id": 1,
+    "name": "总位移严重告警(>50mm)",
+    "field_key": "TotalDisplacement",
+    "comparator": ">",
+    "comparator_label": "大于",
+    "threshold": 0.05,
+    "level": "critical",
+    "level_label": "严重",
+    "level_color": "#ef4444",
+    "created_at": "2026-08-04T02:48:00"
+  },
+  {
+    "id": 3,
+    "project_id": 1,
+    "name": "最大主应力超阈值",
+    "field_key": "Stress_Max_Principal",
+    "comparator": ">",
+    "comparator_label": "大于",
+    "threshold": 3.5,
+    "level": "warning",
+    "level_label": "警告",
+    "level_color": "#f59e0b",
+    "created_at": "2026-08-04T02:48:00"
+  },
+  {
+    "id": 4,
+    "project_id": 1,
+    "name": "最小主应力超限(>5MPa压)",
+    "field_key": "Stress_Min_Principal",
+    "comparator": "<",
+    "comparator_label": "小于",
+    "threshold": -5.0,
+    "level": "critical",
+    "level_label": "严重",
+    "level_color": "#ef4444",
+    "created_at": "2026-08-04T02:48:00"
+  },
+  {
+    "id": 5,
+    "project_id": 1,
+    "name": "X向水平位移异常",
+    "field_key": "X_Disp",
+    "comparator": ">",
+    "comparator_label": "大于",
+    "threshold": 0.02,
+    "level": "info",
+    "level_label": "提示",
+    "level_color": "#3b82f6",
+    "created_at": "2026-08-04T02:48:00"
+  },
+  {
+    "id": 6,
+    "project_id": 1,
+    "name": "Z向沉降预警",
+    "field_key": "Z_Disp",
+    "comparator": "<",
+    "comparator_label": "小于",
+    "threshold": -0.025,
+    "level": "warning",
+    "level_label": "警告",
+    "level_color": "#f59e0b",
+    "created_at": "2026-08-04T02:48:00"
+  },
+  {
+    "id": 7,
+    "project_id": 1,
+    "name": "孔隙水压力突变",
+    "field_key": "PorePressure",
+    "comparator": ">",
+    "comparator_label": "大于",
+    "threshold": 90.0,
+    "level": "warning",
+    "level_label": "警告",
+    "level_color": "#f59e0b",
+    "created_at": "2026-08-04T02:48:00"
+  }
+]

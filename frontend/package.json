@@ -1,0 +1,34 @@
+{
+  "name": "tu-shi-fang-ping-heng-xi-tong-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "土石方平衡系统设计与开发 · 工程数字化协同平台（Vue3 + VTK.js 三维可视化 + ECharts 数据分析）",
+  "homepage": ".",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "build:pages": "cross-env-shell VITE_DEMO_MODE=true VITE_BASE=/tu-shi-fang-ping-heng-xi-tong-she-ji-yu-kai-fa/ vite build",
+    "build:pages:repo": "cross-env-shell VITE_DEMO_MODE=true vite build"
+  },
+  "dependencies": {
+    "@kitware/vtk.js": "^34.14.0",
+    "axios": "^1.7.7",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.8.4",
+    "@element-plus/icons-vue": "^2.3.1",
+    "pinia": "^2.2.2",
+    "vue": "^3.5.18",
+    "vue-router": "^4.4.5",
+    "vue-echarts": "^7.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "autoprefixer": "^10.4.21",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.10",
+    "vite": "^7.1.0"
+  }
+}

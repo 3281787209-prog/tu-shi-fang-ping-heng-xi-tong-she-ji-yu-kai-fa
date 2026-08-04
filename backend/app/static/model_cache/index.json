@@ -1,0 +1,30 @@
+{
+  "exac_1": {
+    "full": "model_cache/exac_1/full_model.vtp",
+    "cavity": "model_cache/exac_1/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_1/slice_x_474.vtp",
+        "model_cache/exac_1/slice_x_494.vtp",
+        "model_cache/exac_1/slice_x_504.vtp",
+        "model_cache/exac_1/slice_x_514.vtp",
+        "model_cache/exac_1/slice_x_534.vtp"
+      ],
+      "y": [
+        "model_cache/exac_1/slice_y_-205.vtp",
+        "model_cache/exac_1/slice_y_-195.vtp",
+        "model_cache/exac_1/slice_y_-185.vtp",
+        "model_cache/exac_1/slice_y_-175.vtp",
+        "model_cache/exac_1/slice_y_-165.vtp"
+      ],
+      "z": [
+        "model_cache/exac_1/slice_z_527.vtp",
+        "model_cache/exac_1/slice_z_537.vtp",
+        "model_cache/exac_1/slice_z_547.vtp",
+        "model_cache/exac_1/slice_z_557.vtp",
+        "model_cache/exac_1/slice_z_567.vtp"
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,623 @@
+{
+  "exac_1": {
+    "full": "model_cache/exac_1/full_model.vtp",
+    "cavity": "model_cache/exac_1/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_1/slice_x_424.vtp",
+        "model_cache/exac_1/slice_x_434.vtp",
+        "model_cache/exac_1/slice_x_444.vtp",
+        "model_cache/exac_1/slice_x_454.vtp",
+        "model_cache/exac_1/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_1/slice_y_-195.vtp",
+        "model_cache/exac_1/slice_y_-185.vtp",
+        "model_cache/exac_1/slice_y_-175.vtp",
+        "model_cache/exac_1/slice_y_-165.vtp",
+        "model_cache/exac_1/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_1/slice_z_527.vtp",
+        "model_cache/exac_1/slice_z_537.vtp",
+        "model_cache/exac_1/slice_z_547.vtp",
+        "model_cache/exac_1/slice_z_557.vtp",
+        "model_cache/exac_1/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_10": {
+    "full": "model_cache/exac_10/full_model.vtp",
+    "cavity": "model_cache/exac_10/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_10/slice_x_424.vtp",
+        "model_cache/exac_10/slice_x_434.vtp",
+        "model_cache/exac_10/slice_x_444.vtp",
+        "model_cache/exac_10/slice_x_454.vtp",
+        "model_cache/exac_10/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_10/slice_y_-195.vtp",
+        "model_cache/exac_10/slice_y_-185.vtp",
+        "model_cache/exac_10/slice_y_-175.vtp",
+        "model_cache/exac_10/slice_y_-165.vtp",
+        "model_cache/exac_10/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_10/slice_z_527.vtp",
+        "model_cache/exac_10/slice_z_537.vtp",
+        "model_cache/exac_10/slice_z_547.vtp",
+        "model_cache/exac_10/slice_z_557.vtp",
+        "model_cache/exac_10/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_11": {
+    "full": "model_cache/exac_11/full_model.vtp",
+    "cavity": "model_cache/exac_11/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_11/slice_x_424.vtp",
+        "model_cache/exac_11/slice_x_434.vtp",
+        "model_cache/exac_11/slice_x_444.vtp",
+        "model_cache/exac_11/slice_x_454.vtp",
+        "model_cache/exac_11/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_11/slice_y_-195.vtp",
+        "model_cache/exac_11/slice_y_-185.vtp",
+        "model_cache/exac_11/slice_y_-175.vtp",
+        "model_cache/exac_11/slice_y_-165.vtp",
+        "model_cache/exac_11/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_11/slice_z_527.vtp",
+        "model_cache/exac_11/slice_z_537.vtp",
+        "model_cache/exac_11/slice_z_547.vtp",
+        "model_cache/exac_11/slice_z_557.vtp",
+        "model_cache/exac_11/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_12": {
+    "full": "model_cache/exac_12/full_model.vtp",
+    "cavity": "model_cache/exac_12/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_12/slice_x_424.vtp",
+        "model_cache/exac_12/slice_x_434.vtp",
+        "model_cache/exac_12/slice_x_444.vtp",
+        "model_cache/exac_12/slice_x_454.vtp",
+        "model_cache/exac_12/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_12/slice_y_-195.vtp",
+        "model_cache/exac_12/slice_y_-185.vtp",
+        "model_cache/exac_12/slice_y_-175.vtp",
+        "model_cache/exac_12/slice_y_-165.vtp",
+        "model_cache/exac_12/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_12/slice_z_527.vtp",
+        "model_cache/exac_12/slice_z_537.vtp",
+        "model_cache/exac_12/slice_z_547.vtp",
+        "model_cache/exac_12/slice_z_557.vtp",
+        "model_cache/exac_12/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_13": {
+    "full": "model_cache/exac_13/full_model.vtp",
+    "cavity": "model_cache/exac_13/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_13/slice_x_424.vtp",
+        "model_cache/exac_13/slice_x_434.vtp",
+        "model_cache/exac_13/slice_x_444.vtp",
+        "model_cache/exac_13/slice_x_454.vtp",
+        "model_cache/exac_13/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_13/slice_y_-195.vtp",
+        "model_cache/exac_13/slice_y_-185.vtp",
+        "model_cache/exac_13/slice_y_-175.vtp",
+        "model_cache/exac_13/slice_y_-165.vtp",
+        "model_cache/exac_13/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_13/slice_z_527.vtp",
+        "model_cache/exac_13/slice_z_537.vtp",
+        "model_cache/exac_13/slice_z_547.vtp",
+        "model_cache/exac_13/slice_z_557.vtp",
+        "model_cache/exac_13/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_14": {
+    "full": "model_cache/exac_14/full_model.vtp",
+    "cavity": "model_cache/exac_14/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_14/slice_x_424.vtp",
+        "model_cache/exac_14/slice_x_434.vtp",
+        "model_cache/exac_14/slice_x_444.vtp",
+        "model_cache/exac_14/slice_x_454.vtp",
+        "model_cache/exac_14/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_14/slice_y_-195.vtp",
+        "model_cache/exac_14/slice_y_-185.vtp",
+        "model_cache/exac_14/slice_y_-175.vtp",
+        "model_cache/exac_14/slice_y_-165.vtp",
+        "model_cache/exac_14/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_14/slice_z_527.vtp",
+        "model_cache/exac_14/slice_z_537.vtp",
+        "model_cache/exac_14/slice_z_547.vtp",
+        "model_cache/exac_14/slice_z_557.vtp",
+        "model_cache/exac_14/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_15": {
+    "full": "model_cache/exac_15/full_model.vtp",
+    "cavity": "model_cache/exac_15/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_15/slice_x_424.vtp",
+        "model_cache/exac_15/slice_x_434.vtp",
+        "model_cache/exac_15/slice_x_444.vtp",
+        "model_cache/exac_15/slice_x_454.vtp",
+        "model_cache/exac_15/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_15/slice_y_-195.vtp",
+        "model_cache/exac_15/slice_y_-185.vtp",
+        "model_cache/exac_15/slice_y_-175.vtp",
+        "model_cache/exac_15/slice_y_-165.vtp",
+        "model_cache/exac_15/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_15/slice_z_527.vtp",
+        "model_cache/exac_15/slice_z_537.vtp",
+        "model_cache/exac_15/slice_z_547.vtp",
+        "model_cache/exac_15/slice_z_557.vtp",
+        "model_cache/exac_15/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_16": {
+    "full": "model_cache/exac_16/full_model.vtp",
+    "cavity": "model_cache/exac_16/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_16/slice_x_424.vtp",
+        "model_cache/exac_16/slice_x_434.vtp",
+        "model_cache/exac_16/slice_x_444.vtp",
+        "model_cache/exac_16/slice_x_454.vtp",
+        "model_cache/exac_16/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_16/slice_y_-195.vtp",
+        "model_cache/exac_16/slice_y_-185.vtp",
+        "model_cache/exac_16/slice_y_-175.vtp",
+        "model_cache/exac_16/slice_y_-165.vtp",
+        "model_cache/exac_16/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_16/slice_z_527.vtp",
+        "model_cache/exac_16/slice_z_537.vtp",
+        "model_cache/exac_16/slice_z_547.vtp",
+        "model_cache/exac_16/slice_z_557.vtp",
+        "model_cache/exac_16/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_17": {
+    "full": "model_cache/exac_17/full_model.vtp",
+    "cavity": "model_cache/exac_17/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_17/slice_x_424.vtp",
+        "model_cache/exac_17/slice_x_434.vtp",
+        "model_cache/exac_17/slice_x_444.vtp",
+        "model_cache/exac_17/slice_x_454.vtp",
+        "model_cache/exac_17/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_17/slice_y_-195.vtp",
+        "model_cache/exac_17/slice_y_-185.vtp",
+        "model_cache/exac_17/slice_y_-175.vtp",
+        "model_cache/exac_17/slice_y_-165.vtp",
+        "model_cache/exac_17/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_17/slice_z_527.vtp",
+        "model_cache/exac_17/slice_z_537.vtp",
+        "model_cache/exac_17/slice_z_547.vtp",
+        "model_cache/exac_17/slice_z_557.vtp",
+        "model_cache/exac_17/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_18": {
+    "full": "model_cache/exac_18/full_model.vtp",
+    "cavity": "model_cache/exac_18/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_18/slice_x_424.vtp",
+        "model_cache/exac_18/slice_x_434.vtp",
+        "model_cache/exac_18/slice_x_444.vtp",
+        "model_cache/exac_18/slice_x_454.vtp",
+        "model_cache/exac_18/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_18/slice_y_-195.vtp",
+        "model_cache/exac_18/slice_y_-185.vtp",
+        "model_cache/exac_18/slice_y_-175.vtp",
+        "model_cache/exac_18/slice_y_-165.vtp",
+        "model_cache/exac_18/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_18/slice_z_527.vtp",
+        "model_cache/exac_18/slice_z_537.vtp",
+        "model_cache/exac_18/slice_z_547.vtp",
+        "model_cache/exac_18/slice_z_557.vtp",
+        "model_cache/exac_18/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_19": {
+    "full": "model_cache/exac_19/full_model.vtp",
+    "cavity": "model_cache/exac_19/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_19/slice_x_424.vtp",
+        "model_cache/exac_19/slice_x_434.vtp",
+        "model_cache/exac_19/slice_x_444.vtp",
+        "model_cache/exac_19/slice_x_454.vtp",
+        "model_cache/exac_19/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_19/slice_y_-195.vtp",
+        "model_cache/exac_19/slice_y_-185.vtp",
+        "model_cache/exac_19/slice_y_-175.vtp",
+        "model_cache/exac_19/slice_y_-165.vtp",
+        "model_cache/exac_19/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_19/slice_z_527.vtp",
+        "model_cache/exac_19/slice_z_537.vtp",
+        "model_cache/exac_19/slice_z_547.vtp",
+        "model_cache/exac_19/slice_z_557.vtp",
+        "model_cache/exac_19/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_2": {
+    "full": "model_cache/exac_2/full_model.vtp",
+    "cavity": "model_cache/exac_2/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_2/slice_x_424.vtp",
+        "model_cache/exac_2/slice_x_434.vtp",
+        "model_cache/exac_2/slice_x_444.vtp",
+        "model_cache/exac_2/slice_x_454.vtp",
+        "model_cache/exac_2/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_2/slice_y_-195.vtp",
+        "model_cache/exac_2/slice_y_-185.vtp",
+        "model_cache/exac_2/slice_y_-175.vtp",
+        "model_cache/exac_2/slice_y_-165.vtp",
+        "model_cache/exac_2/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_2/slice_z_527.vtp",
+        "model_cache/exac_2/slice_z_537.vtp",
+        "model_cache/exac_2/slice_z_547.vtp",
+        "model_cache/exac_2/slice_z_557.vtp",
+        "model_cache/exac_2/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_20": {
+    "full": "model_cache/exac_20/full_model.vtp",
+    "cavity": "model_cache/exac_20/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_20/slice_x_424.vtp",
+        "model_cache/exac_20/slice_x_434.vtp",
+        "model_cache/exac_20/slice_x_444.vtp",
+        "model_cache/exac_20/slice_x_454.vtp",
+        "model_cache/exac_20/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_20/slice_y_-195.vtp",
+        "model_cache/exac_20/slice_y_-185.vtp",
+        "model_cache/exac_20/slice_y_-175.vtp",
+        "model_cache/exac_20/slice_y_-165.vtp",
+        "model_cache/exac_20/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_20/slice_z_527.vtp",
+        "model_cache/exac_20/slice_z_537.vtp",
+        "model_cache/exac_20/slice_z_547.vtp",
+        "model_cache/exac_20/slice_z_557.vtp",
+        "model_cache/exac_20/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_21": {
+    "full": "model_cache/exac_21/full_model.vtp",
+    "cavity": "model_cache/exac_21/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_21/slice_x_424.vtp",
+        "model_cache/exac_21/slice_x_434.vtp",
+        "model_cache/exac_21/slice_x_444.vtp",
+        "model_cache/exac_21/slice_x_454.vtp",
+        "model_cache/exac_21/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_21/slice_y_-195.vtp",
+        "model_cache/exac_21/slice_y_-185.vtp",
+        "model_cache/exac_21/slice_y_-175.vtp",
+        "model_cache/exac_21/slice_y_-165.vtp",
+        "model_cache/exac_21/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_21/slice_z_527.vtp",
+        "model_cache/exac_21/slice_z_537.vtp",
+        "model_cache/exac_21/slice_z_547.vtp",
+        "model_cache/exac_21/slice_z_557.vtp",
+        "model_cache/exac_21/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_22": {
+    "full": "model_cache/exac_22/full_model.vtp",
+    "cavity": "model_cache/exac_22/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_22/slice_x_424.vtp",
+        "model_cache/exac_22/slice_x_434.vtp",
+        "model_cache/exac_22/slice_x_444.vtp",
+        "model_cache/exac_22/slice_x_454.vtp",
+        "model_cache/exac_22/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_22/slice_y_-195.vtp",
+        "model_cache/exac_22/slice_y_-185.vtp",
+        "model_cache/exac_22/slice_y_-175.vtp",
+        "model_cache/exac_22/slice_y_-165.vtp",
+        "model_cache/exac_22/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_22/slice_z_527.vtp",
+        "model_cache/exac_22/slice_z_537.vtp",
+        "model_cache/exac_22/slice_z_547.vtp",
+        "model_cache/exac_22/slice_z_557.vtp",
+        "model_cache/exac_22/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_23": {
+    "full": "model_cache/exac_23/full_model.vtp",
+    "cavity": "model_cache/exac_23/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_23/slice_x_424.vtp",
+        "model_cache/exac_23/slice_x_434.vtp",
+        "model_cache/exac_23/slice_x_444.vtp",
+        "model_cache/exac_23/slice_x_454.vtp",
+        "model_cache/exac_23/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_23/slice_y_-195.vtp",
+        "model_cache/exac_23/slice_y_-185.vtp",
+        "model_cache/exac_23/slice_y_-175.vtp",
+        "model_cache/exac_23/slice_y_-165.vtp",
+        "model_cache/exac_23/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_23/slice_z_527.vtp",
+        "model_cache/exac_23/slice_z_537.vtp",
+        "model_cache/exac_23/slice_z_547.vtp",
+        "model_cache/exac_23/slice_z_557.vtp",
+        "model_cache/exac_23/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_3": {
+    "full": "model_cache/exac_3/full_model.vtp",
+    "cavity": "model_cache/exac_3/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_3/slice_x_424.vtp",
+        "model_cache/exac_3/slice_x_434.vtp",
+        "model_cache/exac_3/slice_x_444.vtp",
+        "model_cache/exac_3/slice_x_454.vtp",
+        "model_cache/exac_3/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_3/slice_y_-195.vtp",
+        "model_cache/exac_3/slice_y_-185.vtp",
+        "model_cache/exac_3/slice_y_-175.vtp",
+        "model_cache/exac_3/slice_y_-165.vtp",
+        "model_cache/exac_3/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_3/slice_z_527.vtp",
+        "model_cache/exac_3/slice_z_537.vtp",
+        "model_cache/exac_3/slice_z_547.vtp",
+        "model_cache/exac_3/slice_z_557.vtp",
+        "model_cache/exac_3/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_4": {
+    "full": "model_cache/exac_4/full_model.vtp",
+    "cavity": "model_cache/exac_4/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_4/slice_x_424.vtp",
+        "model_cache/exac_4/slice_x_434.vtp",
+        "model_cache/exac_4/slice_x_444.vtp",
+        "model_cache/exac_4/slice_x_454.vtp",
+        "model_cache/exac_4/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_4/slice_y_-195.vtp",
+        "model_cache/exac_4/slice_y_-185.vtp",
+        "model_cache/exac_4/slice_y_-175.vtp",
+        "model_cache/exac_4/slice_y_-165.vtp",
+        "model_cache/exac_4/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_4/slice_z_527.vtp",
+        "model_cache/exac_4/slice_z_537.vtp",
+        "model_cache/exac_4/slice_z_547.vtp",
+        "model_cache/exac_4/slice_z_557.vtp",
+        "model_cache/exac_4/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_5": {
+    "full": "model_cache/exac_5/full_model.vtp",
+    "cavity": "model_cache/exac_5/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_5/slice_x_424.vtp",
+        "model_cache/exac_5/slice_x_434.vtp",
+        "model_cache/exac_5/slice_x_444.vtp",
+        "model_cache/exac_5/slice_x_454.vtp",
+        "model_cache/exac_5/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_5/slice_y_-195.vtp",
+        "model_cache/exac_5/slice_y_-185.vtp",
+        "model_cache/exac_5/slice_y_-175.vtp",
+        "model_cache/exac_5/slice_y_-165.vtp",
+        "model_cache/exac_5/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_5/slice_z_527.vtp",
+        "model_cache/exac_5/slice_z_537.vtp",
+        "model_cache/exac_5/slice_z_547.vtp",
+        "model_cache/exac_5/slice_z_557.vtp",
+        "model_cache/exac_5/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_6": {
+    "full": "model_cache/exac_6/full_model.vtp",
+    "cavity": "model_cache/exac_6/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_6/slice_x_424.vtp",
+        "model_cache/exac_6/slice_x_434.vtp",
+        "model_cache/exac_6/slice_x_444.vtp",
+        "model_cache/exac_6/slice_x_454.vtp",
+        "model_cache/exac_6/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_6/slice_y_-195.vtp",
+        "model_cache/exac_6/slice_y_-185.vtp",
+        "model_cache/exac_6/slice_y_-175.vtp",
+        "model_cache/exac_6/slice_y_-165.vtp",
+        "model_cache/exac_6/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_6/slice_z_527.vtp",
+        "model_cache/exac_6/slice_z_537.vtp",
+        "model_cache/exac_6/slice_z_547.vtp",
+        "model_cache/exac_6/slice_z_557.vtp",
+        "model_cache/exac_6/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_7": {
+    "full": "model_cache/exac_7/full_model.vtp",
+    "cavity": "model_cache/exac_7/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_7/slice_x_424.vtp",
+        "model_cache/exac_7/slice_x_434.vtp",
+        "model_cache/exac_7/slice_x_444.vtp",
+        "model_cache/exac_7/slice_x_454.vtp",
+        "model_cache/exac_7/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_7/slice_y_-195.vtp",
+        "model_cache/exac_7/slice_y_-185.vtp",
+        "model_cache/exac_7/slice_y_-175.vtp",
+        "model_cache/exac_7/slice_y_-165.vtp",
+        "model_cache/exac_7/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_7/slice_z_527.vtp",
+        "model_cache/exac_7/slice_z_537.vtp",
+        "model_cache/exac_7/slice_z_547.vtp",
+        "model_cache/exac_7/slice_z_557.vtp",
+        "model_cache/exac_7/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_8": {
+    "full": "model_cache/exac_8/full_model.vtp",
+    "cavity": "model_cache/exac_8/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_8/slice_x_424.vtp",
+        "model_cache/exac_8/slice_x_434.vtp",
+        "model_cache/exac_8/slice_x_444.vtp",
+        "model_cache/exac_8/slice_x_454.vtp",
+        "model_cache/exac_8/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_8/slice_y_-195.vtp",
+        "model_cache/exac_8/slice_y_-185.vtp",
+        "model_cache/exac_8/slice_y_-175.vtp",
+        "model_cache/exac_8/slice_y_-165.vtp",
+        "model_cache/exac_8/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_8/slice_z_527.vtp",
+        "model_cache/exac_8/slice_z_537.vtp",
+        "model_cache/exac_8/slice_z_547.vtp",
+        "model_cache/exac_8/slice_z_557.vtp",
+        "model_cache/exac_8/slice_z_567.vtp"
+      ]
+    }
+  },
+  "exac_9": {
+    "full": "model_cache/exac_9/full_model.vtp",
+    "cavity": "model_cache/exac_9/cavity_surface.vtp",
+    "slices": {
+      "x": [
+        "model_cache/exac_9/slice_x_424.vtp",
+        "model_cache/exac_9/slice_x_434.vtp",
+        "model_cache/exac_9/slice_x_444.vtp",
+        "model_cache/exac_9/slice_x_454.vtp",
+        "model_cache/exac_9/slice_x_464.vtp"
+      ],
+      "y": [
+        "model_cache/exac_9/slice_y_-195.vtp",
+        "model_cache/exac_9/slice_y_-185.vtp",
+        "model_cache/exac_9/slice_y_-175.vtp",
+        "model_cache/exac_9/slice_y_-165.vtp",
+        "model_cache/exac_9/slice_y_-155.vtp"
+      ],
+      "z": [
+        "model_cache/exac_9/slice_z_527.vtp",
+        "model_cache/exac_9/slice_z_537.vtp",
+        "model_cache/exac_9/slice_z_547.vtp",
+        "model_cache/exac_9/slice_z_557.vtp",
+        "model_cache/exac_9/slice_z_567.vtp"
+      ]
+    }
+  }
+}

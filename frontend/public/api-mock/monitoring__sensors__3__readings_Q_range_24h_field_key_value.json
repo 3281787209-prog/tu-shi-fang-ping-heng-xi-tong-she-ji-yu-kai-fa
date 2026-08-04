@@ -1,0 +1,117 @@
+{
+  "sensor": {
+    "id": 3,
+    "code": "M03",
+    "name": "多点位移计 M03",
+    "type": "displacement"
+  },
+  "time_range": {
+    "start": "2026-08-03T03:56:20.126137",
+    "end": "2026-08-04T03:56:20.128154"
+  },
+  "stats": {
+    "count": 16,
+    "avg": 0.005,
+    "max": 0.0095,
+    "min": 0.0031,
+    "latest": 0.003283
+  },
+  "data": [
+    {
+      "time": "2026-08-03T08:47:59.932810",
+      "field_key": "TotalDisplacement",
+      "field_label": "总位移",
+      "value": 0.008867
+    },
+    {
+      "time": "2026-08-03T08:47:59.932810",
+      "field_key": "X_Disp",
+      "field_label": "X向位移",
+      "value": 0.003597
+    },
+    {
+      "time": "2026-08-03T08:47:59.932810",
+      "field_key": "Y_Disp",
+      "field_label": "Y向位移",
+      "value": 0.003652
+    },
+    {
+      "time": "2026-08-03T08:47:59.932810",
+      "field_key": "Z_Disp",
+      "field_label": "Z向位移",
+      "value": 0.003762
+    },
+    {
+      "time": "2026-08-03T14:47:59.932810",
+      "field_key": "TotalDisplacement",
+      "field_label": "总位移",
+      "value": 0.009322
+    },
+    {
+      "time": "2026-08-03T14:47:59.932810",
+      "field_key": "X_Disp",
+      "field_label": "X向位移",
+      "value": 0.003119
+    },
+    {
+      "time": "2026-08-03T14:47:59.932810",
+      "field_key": "Y_Disp",
+      "field_label": "Y向位移",
+      "value": 0.003125
+    },
+    {
+      "time": "2026-08-03T14:47:59.932810",
+      "field_key": "Z_Disp",
+      "field_label": "Z向位移",
+      "value": 0.003321
+    },
+    {
+      "time": "2026-08-03T20:47:59.932810",
+      "field_key": "TotalDisplacement",
+      "field_label": "总位移",
+      "value": 0.009343
+    },
+    {
+      "time": "2026-08-03T20:47:59.932810",
+      "field_key": "X_Disp",
+      "field_label": "X向位移",
+      "value": 0.003059
+    },
+    {
+      "time": "2026-08-03T20:47:59.932810",
+      "field_key": "Y_Disp",
+      "field_label": "Y向位移",
+      "value": 0.004012
+    },
+    {
+      "time": "2026-08-03T20:47:59.932810",
+      "field_key": "Z_Disp",
+      "field_label": "Z向位移",
+      "value": 0.004411
+    },
+    {
+      "time": "2026-08-04T02:47:59.932810",
+      "field_key": "TotalDisplacement",
+      "field_label": "总位移",
+      "value": 0.009521
+    },
+    {
+      "time": "2026-08-04T02:47:59.932810",
+      "field_key": "X_Disp",
+      "field_label": "X向位移",
+      "value": 0.003425
+    },
+    {
+      "time": "2026-08-04T02:47:59.932810",
+      "field_key": "Y_Disp",
+      "field_label": "Y向位移",
+      "value": 0.003544
+    },
+    {
+      "time": "2026-08-04T02:47:59.932810",
+      "field_key": "Z_Disp",
+      "field_label": "Z向位移",
+      "value": 0.003283
+    }
+  ]
+}

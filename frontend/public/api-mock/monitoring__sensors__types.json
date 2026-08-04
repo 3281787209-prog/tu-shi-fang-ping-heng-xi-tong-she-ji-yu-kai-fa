@@ -1,0 +1,34 @@
+[
+  {
+    "type": "displacement",
+    "label": "位移计"
+  },
+  {
+    "type": "stress",
+    "label": "应力计"
+  },
+  {
+    "type": "water_level",
+    "label": "水位计"
+  },
+  {
+    "type": "inclinometer",
+    "label": "测斜仪"
+  },
+  {
+    "type": "piezometer",
+    "label": "渗压计"
+  },
+  {
+    "type": "strain_gauge",
+    "label": "应变计"
+  },
+  {
+    "type": "temperature",
+    "label": "温度计"
+  },
+  {
+    "type": "vibration",
+    "label": "振动传感器"
+  }
+]

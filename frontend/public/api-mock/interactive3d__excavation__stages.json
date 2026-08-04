@@ -1,0 +1,235 @@
+{
+  "total_steps": 23,
+  "stages": [
+    {
+      "index": 0,
+      "step": 1,
+      "stage_key": "exac_1",
+      "label": "开挖第 01 步 — exac_1",
+      "full_vtp_url": "/static/model_cache/exac_1/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_1/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 1,
+      "step": 10,
+      "stage_key": "exac_10",
+      "label": "开挖第 10 步 — exac_10",
+      "full_vtp_url": "/static/model_cache/exac_10/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_10/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 2,
+      "step": 11,
+      "stage_key": "exac_11",
+      "label": "开挖第 11 步 — exac_11",
+      "full_vtp_url": "/static/model_cache/exac_11/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_11/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 3,
+      "step": 12,
+      "stage_key": "exac_12",
+      "label": "开挖第 12 步 — exac_12",
+      "full_vtp_url": "/static/model_cache/exac_12/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_12/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 4,
+      "step": 13,
+      "stage_key": "exac_13",
+      "label": "开挖第 13 步 — exac_13",
+      "full_vtp_url": "/static/model_cache/exac_13/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_13/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 5,
+      "step": 14,
+      "stage_key": "exac_14",
+      "label": "开挖第 14 步 — exac_14",
+      "full_vtp_url": "/static/model_cache/exac_14/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_14/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 6,
+      "step": 15,
+      "stage_key": "exac_15",
+      "label": "开挖第 15 步 — exac_15",
+      "full_vtp_url": "/static/model_cache/exac_15/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_15/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 7,
+      "step": 16,
+      "stage_key": "exac_16",
+      "label": "开挖第 16 步 — exac_16",
+      "full_vtp_url": "/static/model_cache/exac_16/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_16/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 8,
+      "step": 17,
+      "stage_key": "exac_17",
+      "label": "开挖第 17 步 — exac_17",
+      "full_vtp_url": "/static/model_cache/exac_17/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_17/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 9,
+      "step": 18,
+      "stage_key": "exac_18",
+      "label": "开挖第 18 步 — exac_18",
+      "full_vtp_url": "/static/model_cache/exac_18/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_18/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 10,
+      "step": 19,
+      "stage_key": "exac_19",
+      "label": "开挖第 19 步 — exac_19",
+      "full_vtp_url": "/static/model_cache/exac_19/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_19/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 11,
+      "step": 2,
+      "stage_key": "exac_2",
+      "label": "开挖第 02 步 — exac_2",
+      "full_vtp_url": "/static/model_cache/exac_2/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_2/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 12,
+      "step": 20,
+      "stage_key": "exac_20",
+      "label": "开挖第 20 步 — exac_20",
+      "full_vtp_url": "/static/model_cache/exac_20/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_20/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 13,
+      "step": 21,
+      "stage_key": "exac_21",
+      "label": "开挖第 21 步 — exac_21",
+      "full_vtp_url": "/static/model_cache/exac_21/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_21/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 14,
+      "step": 22,
+      "stage_key": "exac_22",
+      "label": "开挖第 22 步 — exac_22",
+      "full_vtp_url": "/static/model_cache/exac_22/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_22/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 15,
+      "step": 23,
+      "stage_key": "exac_23",
+      "label": "开挖第 23 步 — exac_23",
+      "full_vtp_url": "/static/model_cache/exac_23/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_23/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 16,
+      "step": 3,
+      "stage_key": "exac_3",
+      "label": "开挖第 03 步 — exac_3",
+      "full_vtp_url": "/static/model_cache/exac_3/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_3/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 17,
+      "step": 4,
+      "stage_key": "exac_4",
+      "label": "开挖第 04 步 — exac_4",
+      "full_vtp_url": "/static/model_cache/exac_4/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_4/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 18,
+      "step": 5,
+      "stage_key": "exac_5",
+      "label": "开挖第 05 步 — exac_5",
+      "full_vtp_url": "/static/model_cache/exac_5/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_5/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 19,
+      "step": 6,
+      "stage_key": "exac_6",
+      "label": "开挖第 06 步 — exac_6",
+      "full_vtp_url": "/static/model_cache/exac_6/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_6/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 20,
+      "step": 7,
+      "stage_key": "exac_7",
+      "label": "开挖第 07 步 — exac_7",
+      "full_vtp_url": "/static/model_cache/exac_7/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_7/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 21,
+      "step": 8,
+      "stage_key": "exac_8",
+      "label": "开挖第 08 步 — exac_8",
+      "full_vtp_url": "/static/model_cache/exac_8/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_8/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    },
+    {
+      "index": 22,
+      "step": 9,
+      "stage_key": "exac_9",
+      "label": "开挖第 09 步 — exac_9",
+      "full_vtp_url": "/static/model_cache/exac_9/full_model.vtp",
+      "cavity_vtp_url": "/static/model_cache/exac_9/cavity_surface.vtp",
+      "has_full": false,
+      "has_cavity": false
+    }
+  ]
+}

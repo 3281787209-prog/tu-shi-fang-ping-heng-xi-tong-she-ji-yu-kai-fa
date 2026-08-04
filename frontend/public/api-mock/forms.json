@@ -1,0 +1,337 @@
+[
+  {
+    "id": 1,
+    "project_id": 1,
+    "form_type": "schedule_plan",
+    "title": "土石方平衡总体调度方案（第1版）",
+    "status": "approved",
+    "current_step": -1,
+    "data": {
+      "excavation_volume": 1856.4,
+      "fill_volume": 932.7,
+      "borrow_volume": 218.5,
+      "discard_volume": 1142.2,
+      "construction_period_month": 28,
+      "peak_transport_per_day_10k_m3": 6.5,
+      "dump_sites": [
+        "A-1#弃渣场(容量720万m³)",
+        "A-3#弃渣场(容量480万m³)"
+      ],
+      "borrow_sources": [
+        "B-2#取土场(储量320万m³)"
+      ],
+      "transport_routes": [
+        {
+          "name": "北线-主干便道",
+          "capacity_10k_m3_day": 4.2,
+          "length_km": 5.8
+        },
+        {
+          "name": "南线-临建道路",
+          "capacity_10k_m3_day": 2.8,
+          "length_km": 7.2
+        }
+      ]
+    },
+    "created_by": "engineer",
+    "created_at": "2026-08-04T02:48:00",
+    "approvals": [
+      {
+        "id": 1,
+        "form_id": 1,
+        "step_order": 0,
+        "approver_role": "manager",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      },
+      {
+        "id": 2,
+        "form_id": 1,
+        "step_order": 1,
+        "approver_role": "engineer",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      },
+      {
+        "id": 3,
+        "form_id": 1,
+        "step_order": 2,
+        "approver_role": "admin",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      }
+    ],
+    "form_type_label": "土石方调度方案"
+  },
+  {
+    "id": 2,
+    "project_id": 1,
+    "form_type": "earthwork_allocation",
+    "title": "exac_1 ~ exac_8 分步开挖调配单",
+    "status": "approved",
+    "current_step": -1,
+    "data": {
+      "stage_range": "exac_1 至 exac_8",
+      "total_stage_volume_10k_m3": 568.2,
+      "stages": [
+        {
+          "stage": "exac_1",
+          "volume_10k_m3": 42.5,
+          "target": "A-1#弃渣场"
+        },
+        {
+          "stage": "exac_4",
+          "volume_10k_m3": 78.3,
+          "target": "B-2#取土场反压区"
+        },
+        {
+          "stage": "exac_8",
+          "volume_10k_m3": 95.6,
+          "target": "A-1#弃渣场"
+        }
+      ]
+    },
+    "created_by": "engineer",
+    "created_at": "2026-08-04T02:48:00",
+    "approvals": [
+      {
+        "id": 4,
+        "form_id": 2,
+        "step_order": 0,
+        "approver_role": "manager",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      },
+      {
+        "id": 5,
+        "form_id": 2,
+        "step_order": 1,
+        "approver_role": "engineer",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      },
+      {
+        "id": 6,
+        "form_id": 2,
+        "step_order": 2,
+        "approver_role": "admin",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      }
+    ],
+    "form_type_label": "土石方调配方案"
+  },
+  {
+    "id": 3,
+    "project_id": 1,
+    "form_type": "geology_survey",
+    "title": "ZK02 钻孔补充勘察报告（F1断层位置修正）",
+    "status": "pending",
+    "current_step": 0,
+    "data": {
+      "borehole_code": "ZK02",
+      "finding": "在深度 48~52m 处发现 F1 断层破碎带，实际位置较原勘察报告向 NE 偏移约 6.5m。",
+      "suggestion": "建议 exac_10 工况开挖时增设一排预应力锚索，并对该区域进行超前地质预报。",
+      "attachment_count": 3
+    },
+    "created_by": "engineer",
+    "created_at": "2026-08-04T02:48:00",
+    "approvals": [
+      {
+        "id": 7,
+        "form_id": 3,
+        "step_order": 0,
+        "approver_role": "engineer",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      },
+      {
+        "id": 8,
+        "form_id": 3,
+        "step_order": 1,
+        "approver_role": "manager",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      }
+    ],
+    "form_type_label": "地质勘察报告"
+  },
+  {
+    "id": 4,
+    "project_id": 1,
+    "form_type": "change_request",
+    "title": "关于第5马道坡率由1:1.25调整为1:1.5的变更申请",
+    "status": "pending",
+    "current_step": 0,
+    "data": {
+      "location": "左岸边坡 540m 高程马道段",
+      "original_design": "坡率 1:1.25，马道宽 2.0m",
+      "proposed_design": "坡率 1:1.5，马道宽 3.0m",
+      "reason": "ZK04 揭示该段④-2层砂岩强风化厚度达 8.6m，原设计坡率偏陡。",
+      "cost_increase_pct": 6.8,
+      "schedule_delay_day": 5
+    },
+    "created_by": "manager",
+    "created_at": "2026-08-04T02:48:00",
+    "approvals": [
+      {
+        "id": 9,
+        "form_id": 4,
+        "step_order": 0,
+        "approver_role": "manager",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      },
+      {
+        "id": 10,
+        "form_id": 4,
+        "step_order": 1,
+        "approver_role": "admin",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      }
+    ],
+    "form_type_label": "变更申请"
+  },
+  {
+    "id": 5,
+    "project_id": 1,
+    "form_type": "exception_report",
+    "title": "M03 位移计速率异常报告（2024-08-15 ~ 08-21）",
+    "status": "draft",
+    "current_step": 0,
+    "data": {
+      "sensor_code": "M03",
+      "period": "2024-08-15 ~ 2024-08-21",
+      "average_rate_mm_day": 2.3,
+      "threshold_mm_day": 1.5,
+      "analysis": "伴随 exac_14 工况开挖至 F1 断层附近，位移速率明显增大，建议加密监测频次。"
+    },
+    "created_by": "engineer",
+    "created_at": "2026-08-04T02:48:00",
+    "approvals": [
+      {
+        "id": 11,
+        "form_id": 5,
+        "step_order": 0,
+        "approver_role": "manager",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      },
+      {
+        "id": 12,
+        "form_id": 5,
+        "step_order": 1,
+        "approver_role": "engineer",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      }
+    ],
+    "form_type_label": "异常上报"
+  },
+  {
+    "id": 6,
+    "project_id": 1,
+    "form_type": "param_calculation",
+    "title": "参数繁衍：exac_15 工况整体稳定系数复核",
+    "status": "draft",
+    "current_step": 0,
+    "data": {
+      "analysis_method": "有限元强度折减法",
+      "constitutive_model": "Mohr-Coulomb",
+      "calculated_Fs": 1.32,
+      "required_Fs": 1.3,
+      "conclusion": "满足规范要求，可按既定方案推进 exac_15 ~ exac_18。"
+    },
+    "created_by": "engineer",
+    "created_at": "2026-08-04T02:48:00",
+    "approvals": [
+      {
+        "id": 13,
+        "form_id": 6,
+        "step_order": 0,
+        "approver_role": "engineer",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      },
+      {
+        "id": 14,
+        "form_id": 6,
+        "step_order": 1,
+        "approver_role": "manager",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      }
+    ],
+    "form_type_label": "参数计算审批"
+  },
+  {
+    "id": 7,
+    "project_id": 1,
+    "form_type": "monitoring_report",
+    "title": "2024年8月 第3周 安全监测周报",
+    "status": "approved",
+    "current_step": -1,
+    "data": {
+      "week": "2024-W33",
+      "max_disp_mm": 28.5,
+      "max_stress_MPa": 3.12,
+      "alert_count": 3,
+      "dispatched_count": 3,
+      "conclusion": "边坡整体稳定，M03、S02 传感器建议加密观测。"
+    },
+    "created_by": "engineer",
+    "created_at": "2026-08-04T02:48:00",
+    "approvals": [
+      {
+        "id": 15,
+        "form_id": 7,
+        "step_order": 0,
+        "approver_role": "engineer",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      },
+      {
+        "id": 16,
+        "form_id": 7,
+        "step_order": 1,
+        "approver_role": "manager",
+        "decision": null,
+        "comment": null,
+        "decided_by": null,
+        "decided_at": null
+      }
+    ],
+    "form_type_label": "监测报告"
+  }
+]
